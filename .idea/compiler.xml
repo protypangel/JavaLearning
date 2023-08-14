@@ -10,5 +10,11 @@
         <module name="test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="19" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test" options="-parameters --add-modules java.datatransfer,java.desktop" />
+    </option>
   </component>
 </project>
